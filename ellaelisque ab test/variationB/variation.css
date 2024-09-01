@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+html body .pro-container {
+    max-width: 600px;
+    margin: auto;
+    background: #fafafa;
+    padding: 20px;
+    text-align: center;
+}
+
+html body h2.pro-header {
+    text-align: center;
+    color: #24909a;
+    margin-bottom: 20px;
+    margin: 15px 0 0;
+    font-size: 14px;
+}
+
+html body .pro-product{
+    padding-top: 20px;
+}
+
+html body .pro-product:not(:last-child){
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+html body .pro-product-container {
+    display: flex;
+    align-items: center;
+}
+
+html body .pro-product img {
+    width: 80px;
+    height: auto;
+    max-width: 90px;
+    width: 100%;
+}
+
+html body .pro-product-details-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+html body .pro-product-details{
+    padding: 0 15px;
+}
+
+html body .pro-product-info {
+    flex-grow: 1;
+}
+
+html body .pro-product-info h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+html body .pro-price {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #919747;
+    font-size: 12px;
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+
+html body .pro-product-button{
+    max-width: 80px;
+    width: 100%;
+}
+
+html body .pro-product-button .pro-adding{
+    pointer-events:none;
+    opacity: 0.5;
+}
+
+html body .pro-toggle-size, .add-to-cart {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 100%;
+    line-height: 16px;
+    border-radius: 5px;
+}
+
+html body .pro-size-selector {
+    display: none;
+    margin-top: 10px;
+}
+
+html body .pro-size-selector select {
+    color: #232323;
+    background-color: #fff;
+    border-color: #ccc;
+    border-radius: 5px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    margin: 0;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #eee;
+    background-color: #fff;
+    background-image: linear-gradient(45deg, transparent 50%, #919191 50%), linear-gradient(135deg, #919191 50%, transparent 50%), linear-gradient(to right, #919191, #919191);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) .5em;
+    background-repeat: no-repeat;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    padding: 10px 40px 10px 15px;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+html body .pro-open{
+    display: block;
+}
+
+@media (max-width: 600px) {
+    html body .pro-product {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    html body .pro-toggle-size, .add-to-cart {
+        width: 100%;
+        text-align: center;
+    }
+}

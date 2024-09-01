@@ -1,0 +1,377 @@
+body{
+    background-image: unset!important;
+}
+
+html body [data-id="2e196dc"],
+html body [data-id="6e4d49e"],
+html body [data-id="a221f2b"],
+html body [data-id="3a3e2d3"],
+html body [data-id="f2a388c"],
+html body [data-id="ee3af36"],
+html body [data-id="ae3b2c8"]{
+    display: none;
+}
+
+html body .ab-aml-section,
+html body .ab-vertical-tab-section,
+html body .ab-tab-desktop-visible{
+    max-width: 1380px;
+    width: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 60px;
+}
+
+html body .ab-aml-container{
+    border-image: linear-gradient(145deg, #ffffff38, #00000038) 1;
+    background-color: #0d0d0d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 45px;
+    border: 1px solid transparent;
+    width: 100%;
+}
+
+html body .ab-aml-column{
+  display: flex;
+  flex-direction: column;
+}
+
+html body .ab-aml-header{
+  color: #ffffff !important;
+  font-size: 47px!important;
+  font-weight: 900!important;
+}
+
+html body .ab-aml-subheader{
+  color: #ffffff !important;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+html body .ab-button-global{
+    font-family: "DM Sans", Sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    fill: #FFFDFD;
+    color: #FFFDFD!important;
+    background-color: #02010100;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #97D3C8;
+    border-radius: 200px 200px 200px 200px;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+html body .ab-button-global:hover{
+  color: #000000!important;
+  background-color:#7DC5D0;
+}
+
+/* tab list */
+  
+html body .ab-vertical-tab-container {
+    max-width: 36%;
+    width: 100%;
+    background: #000;
+    padding: 0 35px;
+    gap: 26px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  html body .ab-vertical-tab-item {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    cursor: pointer;
+  }
+  
+  html body .ab-vertical-tab-item-header {
+    color: #ffffff7f;
+    font-size: 28px!important;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  html body .ab-vertical-tab-item-subheader {
+    color: #ffffff7f;
+    font-size: 16px!important;
+    font-weight: 400;
+    width: 90%;
+    line-height: 26px;
+    margin: 0;
+  }
+  
+  html body .ab-tab-selected .ab-vertical-tab-item-header,
+  html body .ab-tab-selected .ab-vertical-tab-item-subheader {
+    color: #fff;
+  }
+  
+  html body .ab-tab-selected:before {
+    content: '';
+    background-image: url('data:image/svg+xml,%3Csvg%20width%3D%223%22%20height%3D%2284%22%20viewBox%3D%220%200%203%2084%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Crect%20width%3D%223%22%20height%3D%2272%22%20rx%3D%221.5%22%20fill%3D%22%232C2C2C%22/%3E%3Crect%20width%3D%223%22%20height%3D%2224%22%20rx%3D%221.5%22%20fill%3D%22%2333CCCC%22/%3E%3C/svg%3E');
+    width: 3px;
+    height: 84px;
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Tab Content */
+  
+  html body .ab-tab-content-container {
+    border-image: linear-gradient(145deg, #ffffff38, #00000038) 1;
+    background-color: #0d0d0d;
+    flex: 1;
+    border: 1px solid transparent;
+    display: flex;
+    max-height: 800px;
+  }
+  
+  html body .ab-tab-content {
+    gap: 12px;
+    align-items: center;
+    flex: 1;
+    display: none;
+  }
+
+  html body .ab-tab-content.ab-tab-content-selected{
+    display: flex;
+  }
+  
+  html body .ab-teb-content-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 5% 0 10%;
+  }
+  
+  html body .ab-tab-content-img-container {
+    max-width: 32%;
+  }
+  
+  html body .ab-teb-content-details img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  html body .ab-teb-content-details .ab-tab-content-header {
+    color: #ffffff !important;
+    margin-top: 18px;
+    font-size: 32px;
+    font-weight: 900;
+  }
+  
+  html body .ab-teb-content-details .ab-tab-content-checklist {
+    font-size: 21px;
+    font-weight: 400;
+    align-self: center;
+    line-height: 31px;
+  }
+
+  html body .ab-teb-content-details .ab-tab-content-checklist li{
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  html body .ab-tab-content-checklist {
+    list-style-image: url("data:image/svg+xml,%0A%3Csvg width='18' height='14' viewBox='0 0 18 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.76871 13.4612C6.59997 13.631 6.36976 13.7256 6.13062 13.7256C5.89149 13.7256 5.66127 13.631 5.49254 13.4612L0.396633 8.36449C-0.132211 7.83565 -0.132211 6.9781 0.396633 6.45024L1.03472 5.81199C1.56373 5.28315 2.42029 5.28315 2.94913 5.81199L6.13062 8.99365L14.7275 0.396633C15.2565 -0.132211 16.1139 -0.132211 16.6419 0.396633L17.28 1.03488C17.8088 1.56373 17.8088 2.42111 17.28 2.94913L6.76871 13.4612Z' fill='%237DC5D0'/%3E%3C/svg%3E%0A");
+}
+
+html body .ab-tab-content-btn{
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  
+  html body .ab-tab-content-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 50vh;
+    height: -webkit-fill-available;
+    flex: 1;
+    position: relative;
+    z-index: 1;
+  }
+  
+  html body .ab-tab-content-img-container .ab-tab-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-1 .ab-tab-img.ab-tab-img-1{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p1-img.png');
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-1 .ab-tab-img.ab-tab-img-2{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p2-img.png');
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-1 .ab-tab-img.ab-tab-img-3{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p3-img.png');
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-1 .ab-tab-img.ab-tab-img-4{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p4-img.png');
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-1 .ab-tab-img.ab-tab-img-5{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p5-img.png');
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-1 .ab-tab-img.ab-tab-img-6{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p6-img.png');
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-1 .ab-tab-img.ab-tab-img-7{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p7-img.png');
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-1 .ab-tab-img.ab-tab-img-8{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p8-img.png');
+  }
+  
+  html body .ab-tab-content-img-container.ab-tab-2 .ab-tab-img.ab-tab-img-1{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p9-img.png');
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-2 .ab-tab-img.ab-tab-img-2{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p10-img.png');
+  }
+
+  html body .ab-tab-content-img-container.ab-tab-2 .ab-tab-img.ab-tab-img-3{
+    background-image: url('https://cdn-3.convertexperiments.com/uf/1002950/10025531/p11-img.png');
+  }
+
+  html body .ab-tab-content-img-container::after{
+    content: '';
+    background-color: #00308F;
+    width: 30px;
+    height: 35%;
+    position: absolute;
+    z-index: 0;
+    left: -15px;
+  }
+  
+  html body .ab-tab-mobile-visible{
+    display: none;
+  }
+
+  @media screen and (max-width: 1023px) {
+
+    html body .ab-aml-column{
+        width: 100%;
+    }
+
+    html body .ab-aml-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    html body .ab-aml-header{
+        font-size: 28px!important;
+    }
+
+    html body .ab-aml-subheader{
+        font-size: 18px;
+    }
+
+    html body .ab-aml-section .ab-aml-btn{
+        margin-top: 15px;
+    }
+
+    html body .ab-button-global{
+        font-size: 16px;;
+    }
+
+    html body .ab-tab-mobile-visible{
+      display: block;
+    }
+
+    html body .ab-tab-desktop-visible{
+      display: none;
+    }
+
+    html body .ab-vertical-tab-container {
+      max-width: 100%;
+      padding: 0 15px;
+      margin: 0 15px;
+    }
+  
+    html body .ab-vertical-tab-item-header {
+      font-size: 24px !important;
+    }
+  
+    html body .ab-vertical-tab-item-subheader {
+      font-size: 14px !important
+    }
+  
+    html body .ab-tab-selected:before {
+      background-image: url('data:image/svg+xml,%3Csvg%20width%3D%223%22%20height%3D%2225%22%20viewBox%3D%220%200%203%2025%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20y%3D%220.5%22%20width%3D%223%22%20height%3D%2224%22%20rx%3D%221.5%22%20fill%3D%22%2333CCCC%22%2F%3E%3C%2Fsvg%3E');
+      height: 24px;
+    }
+
+    html body .ab-tab-selected .ab-tab-mbl-btn{
+        display: none;
+    }
+  
+    html body .ab-tab-collapse {
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.3s;
+    }
+  
+    html body .ab-tab-collapse.ab-tab-collapse-active {
+        max-height: 70vh;
+    }
+  
+    html body .ab-tab-mbl-btn {
+      border: unset!important;
+      background: transparent!important;
+      color: #fff;
+      padding: 0!important;
+      margin: 15px 0 0 0!important;
+      font-size: 14px;
+      text-transform: uppercase!important;
+    }
+  
+    html body .ab-tab-mobile-visible .ab-tab-content-checklist {
+      font-size: 14px;
+      font-weight: 400;
+      align-self: center;
+      line-height: 25px;
+      padding-bottom: 20px;
+      margin-top: 15px;
+    }
+  
+    html body .ab-tab-mobile-visible .ab-tab-content-checklist li {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  
+    html body .ab-tab-content-btn {
+      font-size: 14px;
+      display: inline-block;
+      margin: 0;
+    }
+  
+  }
+  
